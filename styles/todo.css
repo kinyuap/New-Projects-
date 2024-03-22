@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  margin-top: 200px;
+  /* margin-left: 200px ; */
+  /* width: 400px; */
+
+}
+
+#todoForm {
+  /* display: flex;
+  flex-direction: row; */
+  column-gap: 5px;
+  align-content: center;
+}
+
+#todoInput {
+  height: 23.5px;
+  border-radius: 3px;
+}
+
+.button {
+  height: 30px;
+  width: 130px;
+  background-color: rgb(228, 227, 227);
+  border: none;
+}
+#todoListview, li {
+  background-color: rgb(228, 227, 227);
+   width: fit-content;
+   text-align: center;
+}

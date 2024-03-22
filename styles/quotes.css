@@ -1,0 +1,73 @@
+html {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  /* width: 100%; */
+  padding: 0 10px;
+  margin: 0;
+}
+
+h1 {
+  margin: 50px 0 25px;
+  font-size: 40px;
+}
+
+.quoteSpace {
+  
+  margin-top: 100px;
+  height: 100vh;
+  justify-content: center;
+  /* align-items:center; */
+  transition: .5s;
+}
+.quoteBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: black;
+  /* width: max-content; */
+  height: 200px;
+  min-height: calc(100vh*0.3);
+}
+button {
+  background-color: chocolate;
+  /* color: whitesmoke; */
+  color: rgb(255, 214, 144);
+  padding: 10px 10px;
+  margin: 20px 0 10px ;
+  border: 2px solid rgba(151, 28, 28, 0.699);
+  font-size: 18px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+/* .button:onclick {
+  border-top-color: #28597a;
+  background: rgb(255, 214, 144);
+  color: rgb(255, 185, 0);
+} */
+button:active {
+  background: rgb(184, 150, 91);
+  color: rgb(94, 185, 173);
+}
+p {
+  margin-bottom: 20px;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  .quoteSpace {
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    background-color: #1a6ca3;
+  }
+}
